@@ -1,0 +1,435 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Create Account</title>
+<style type="text/css">
+div#container {
+	text-align: left; /* fix alignment for ie */;
+	margin: 0 auto;
+	width: 900px; /* if you want the width to be fixed, set to whatever you want */
+}
+.auto-style1 {
+	border-width: 1px;
+	border: solid;
+	border-color: #D5D0D0;
+}
+.auto-style2 {
+	border-color:gray;
+	border-left-style: solid;
+	border-left-width: 2px;
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+
+}
+.auto-style3 {
+	border-color:gray;
+	border-left-style: solid;
+	border-left-width: 2px;
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
+.style1 {
+	font-size: small;
+}
+.style3 {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	color: #5F5D5D;
+	font-size: large;
+}
+.style4 {
+	text-align: center;
+}
+.style5 {
+	border: 1px solid #808080;
+	padding: 1px 4px;
+	text-align: center;
+	color: #5F5D5D;
+	font-size: x-large;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.style6 {
+	text-align: left;
+}
+.style7 {
+	border-style: none;
+	}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<link href="CSS/Links.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="MM_preloadImages('Buttons/camera_on.jpg','Buttons/television_on.jpg','Buttons/handphone_on.jpg','Buttons/notebook_on.jpg','Buttons/game_console_on.jpg','Buttons/printer_on.jpg')">
+
+<div id="container">
+	<table>
+		<tr>
+			<td><img src="Homepicture/AB%20logo.png"></img> 
+			</td>
+		</tr>
+	</table>
+<table style= "position:absolute; left: 353px; top: 8px; height: 127px; width: 500px;" align="right;" class="style7">
+<tr><td><img height="100%" src="Ia%20picture/banner.gif" width="100%" /></td></tr>
+</table>
+	
+    <!--form start-->
+	<form id="form1" name="form1" method="post" action="">
+      <table style= "position:absolute; left: 900px; top: 28px;" align="right;" width="273" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td colspan="2"><strong>Your Account</strong></td>
+          </tr>
+        <tr>
+          <td width="70">Username :</td>
+          <td width="172"><input type="text" name="username" id="username" /></td>
+          </tr>
+        <tr>
+          <td>Password : </td>
+          <td><label for="password"></label>
+            <input type="password" name="password" id="password" /></td>
+          </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="style4"><em><a href="#"><span class="style1">forgot your password?</span></a></em></td>
+        </tr>
+        <tr>
+          <td height="40" colspan="3" align="right" valign="top">
+		  <a href="#"><img src="Buttons/login.jpg" width="116" height="30" border="0" /></a>&nbsp;
+		  <a href="#"><img src="Buttons/Register.jpg" width="116" height="30" border="0" /></a>&nbsp;</td>
+        </tr>
+        </table>
+    </form>    
+    <!--form end-->
+
+	<table border="none" width="104%">
+		<tr>
+			<td align="center" width="10%"><a href="home.html">HOME</a></td>
+			<td align="center" width="12%"><a href="howitworks.html">HOW IT WORKS</a></td>
+			<td align="center" width="12%"><a href="coming.html">COMING ITEMS</a></td>
+			<td align="center" width="12%"><a href="about.html">ABOUT US</a></td>
+			<td align="center" width="12%"><a href="contact.html">CONTACT US</a></td>
+		</tr>
+		<tr>
+			<td colspan="5">
+			<img height="130px" src="Homepicture/webpage%202.jpeg" width="100%" border="1"></img><br />
+			<br />
+			</td>
+		</tr>
+	</table>
+</div>
+<br />
+
+<table style="position:absolute; width:50%; left: 280px; top: 366px;" align="center;">
+	<tr>
+		<td style="width: 211px" class="style3"><strong><em>Personal Information</em></strong></td>
+		<td style="width: 243px">&nbsp;</td>
+		<td style="width: 270px">&nbsp;</td>
+	</tr>
+	<tr>
+		<td style="width: 211px; height: 37px;">Surname*</td>
+		<td style="width: 243px; height: 37px;">
+            <input type="text" name="surname" id="surname" /></td>
+		<td style="width: 270px; height: 37px;"></td>
+	</tr>
+	<tr>
+		<td style="width: 211px; height: 37px;">Last Name*</td>
+		<td style="width: 243px; height: 37px;">
+            <input type="text" name="lastname" id="lastname" /></td>
+		<td style="width: 270px; height: 37px;"></td>
+	</tr>
+	<tr>
+		<td style="width: 211px; height: 37px;">Gender*</td>
+		<td style="width: 243px; height: 37px;" class="style6">
+		<form method="post">
+			<select name="Gender">
+			<option selected="selected">Select</option>
+			<option>Male</option>
+			<option>Female</option>
+			</select></form>
+		</td>
+		<td style="width: 270px; height: 37px;"></td>
+	</tr>
+	<tr>
+		<td style="width: 211px; height: 37px;">Date Of Birth*</td>
+		<td style="width: 243px; height: 37px;">
+		<form method="post">
+			<select name="Day">
+			<option selected="selected">Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>
+			<option>13</option>
+			<option>14</option>
+			<option>15</option>
+			<option>16</option>
+			<option>17</option>
+			<option>18</option>
+			<option>19</option>
+			<option>20</option>
+			<option>21</option>
+			<option>22</option>
+			<option>23</option>
+			<option>24</option>
+			<option>25</option>
+			<option>26</option>
+			<option>27</option>
+			<option>28</option>
+			<option>29</option>
+			<option>30</option>
+			<option>31</option>
+			</select><select name="Month">
+			<option>Month</option>
+			<option>January</option>
+			<option>February</option>
+			<option>March</option>
+			<option>April</option>
+			<option>May</option>
+			<option>June</option>
+			<option>July</option>
+			<option>August</option>
+			<option>September</option>
+			<option>October</option>
+			<option>November</option>
+			<option>December</option>
+			</select><select name="Year">
+			<option selected="selected">Year</option>
+			<option>1993</option>
+			<option>1992</option>
+			<option>1991</option>
+			<option>1990</option>
+			<option>1989</option>
+			<option>1988</option>
+			<option>1987</option>
+			<option>1986</option>
+			<option>1985</option>
+			<option>1984</option>
+			<option>1983</option>
+			<option>1982</option>
+			<option>1981</option>
+			<option>1980</option>
+			<option>1979</option>
+			<option>1978</option>
+			<option>1977</option>
+			<option>1976</option>
+			<option>1975</option>
+			<option>1974</option>
+			<option>1973</option>
+			<option>1972</option>
+			<option>1971</option>
+			<option>1970</option>
+			<option>1969</option>
+			<option>1968</option>
+			<option>1967</option>
+			<option>1966</option>
+			<option>1965</option>
+			<option>1964</option>
+			<option>1963</option>
+			<option>1962</option>
+			<option>1961</option>
+			<option>1960</option>
+			<option>1959</option>
+			<option>1958</option>
+			<option>1957</option>
+			<option>1956</option>
+			<option>1955</option>
+			<option>1954</option>
+			<option>1953</option>
+			<option>1952</option>
+			<option>1951</option>
+			<option>1950</option>
+			<option>1949</option>
+			<option>1948</option>
+			<option>1947</option>
+			<option>1946</option>
+			<option>1945</option>
+			<option>1944</option>
+			<option>1943</option>
+			<option>1941</option>
+			<option>1940</option>
+			<option>1939</option>
+			<option>1938</option>
+			<option>1937</option>
+			<option>1936</option>
+			<option>1935</option>
+			<option>1934</option>
+			<option>1933</option>
+			<option>1932</option>
+			<option>1931</option>
+			<option>1930</option>
+			</select></form>
+		</td>
+		<td style="width: 270px; height: 37px;">
+		<form method="post">
+		</form>
+		</td>
+	</tr>
+	<tr>
+		<td style="width: 211px; height: 37px;">Address (shipping)*</td>
+		<td style="width: 243px; height: 37px;">
+            <input type="text" name="address" id="address" /></td>
+		<td style="width: 270px; height: 37px;"></td>
+	</tr>
+	<tr>
+		<td style="width: 211px; height: 37px;">City*</td>
+		<td style="width: 243px; height: 37px;">
+            <input type="text" name="city" id="city" /></td>
+		<td style="width: 270px; height: 37px;"></td>
+	</tr>
+	<tr>
+		<td style="width: 211px; height: 37px;">State*</td>
+		<td style="width: 243px; height: 37px;">
+            <input type="text" name="state" id="state" /></td>
+		<td style="width: 270px; height: 37px;"></td>
+	</tr>
+	<tr>
+		<td style="width: 211px; height: 37px;">Zip*</td>
+		<td style="width: 243px; height: 37px;">
+            <input type="text" name="zip" id="zip" /></td>
+		<td style="width: 270px; height: 37px;"></td>
+	</tr>
+	<tr>
+		<td style="width: 211px; height: 37px;">Country*</td>
+		<td style="width: 243px; height: 37px;">
+            <input type="text" name="country" id="country" /></td>
+		<td style="width: 270px; height: 37px;"></td>
+	</tr>
+	<tr>
+		<td style="width: 211px; height: 37px;">Mobile**</td>
+		<td style="width: 243px; height: 37px;">
+            <input type="text" name="mobile" id="mobile" /></td>
+		<td style="width: 270px; height: 37px;">
+		<img height="32" src="Ia%20picture/Format%201.jpg" width="222" /></td>
+	</tr>
+</table>
+
+
+<p style="height: 20px"><br />
+</p>
+
+
+<table style="position:absolute; width:50%; left: 280px; top: 849px;" align="center;">
+	<tr>
+		<td class="style3" style="width: 605px"><em><strong>ID and Password</strong></em></td>
+		<td style="width: 243px">&nbsp;</td>
+		<td style="width: 270px">&nbsp;</td>
+	</tr>
+	<tr>
+		<td style="width: 605px; height: 37px">Email*</td>
+		<td style="width: 243px; height: 37px">
+            <input type="text" name="email" id="email" /></td>
+		<td style="width: 270px; height: 37px"></td>
+	</tr>
+	<tr>
+		<td style="width: 605px">Username**</td>
+		<td style="width: 243px">
+            <input type="text" name="username" id="username" /></td>
+		<td style="width: 270px">
+		<img height="33" src="Ia%20picture/Format%202.jpg" width="274" /></td>
+	</tr>
+	<tr>
+		<td style="width: 605px">Password**</td>
+		<td style="width: 243px">
+            <input type="password" name="password" id="password" /></td>
+		<td style="width: 270px">
+		<img height="33" src="Ia%20picture/Format%202.jpg" width="274" /></td>
+	</tr>
+	<tr>
+		<td style="width: 605px; height: 37px">Confirm Password*</td>
+		<td style="width: 243px; height: 37px">
+            <input type="password" name="confirmpassword" id="confirmpassword" /></td>
+		<td style="width: 270px; height: 37px"></td>
+	</tr>
+	<tr>
+		<td style="width: 605px; height: 37px">How you find us?</td>
+		<td style="width: 243px; height: 37px">
+		<form method="post">
+			<select name="FindUs">
+			<option selected="selected">Choose</option>
+			<option>Friend</option>
+			<option>Forum</option>
+			<option>Flyer</option>
+			<option>Internet</option>
+			<option>Newspaper</option>
+			<option>Event/Fair</option>
+			<option>Others</option>
+			</select></form>
+		</td>
+		<td style="width: 270px; height: 37px"></td>
+	</tr>
+	<tr>
+		<td style="width: 605px">&nbsp;</td>
+		<td style="width: 243px" class="style4">
+		<img height="60" src="Ia%20picture/captcha%20code.jpg" width="200" /></td>
+		<td style="width: 270px">&nbsp;</td>
+	</tr>
+		<tr>
+		<td style="width: 605px; height: 37px;">CAPTCHA code*</td>
+		<td style="width: 243px; height: 37px;">
+            <input type="text" name="captchacode" id="captchacode" /></td>
+		<td style="width: 270px; height: 37px;"></td>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td class="style5"><a href="#">SUBMIT</a></td>
+	</tr>
+</table>
+
+<p style="height: 20px"><br />
+</p>
+
+<table style="width: 100%">
+	<tr>
+		<td>
+		<img style="position:absolute; left: 256px; top: 1341px;" align="middle" alt="" height="74" src="Ia%20picture/sitemap.jpg" width="932" /></td>
+	</tr>
+</table>
+
+<br /><br />
+</body>
+
+</html>
